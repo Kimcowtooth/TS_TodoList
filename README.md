@@ -1,46 +1,18 @@
-# Getting Started with Create React App
+# Level5 : 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+react-query이용 TodoList
 
-## Available Scripts
+## 구현사항
 
-In the project directory, you can run:
+1. Todo 항목 추가 : 사용자가 새로운 Todo항목을 입력하고 추가 가능
+2. Todo 항목 목록 표시 기능 : 각각의 Todo 항목은 고유의 식별자를 가진다.
+3. Todo 삭제 : 삭제 시 사용자에게 삭제 확인 요청
+4. Todo 완료 상태 표시 기능 : 사용자가 Todo항목을 완료했음을 표시한다.
 
-### `yarn start`
+### 사용법
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.Node.js설치
+2.yarn 패키지 관리자 설치
+3.TypeScript 설치
+4.json-server --watch db.json --port 4000
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
