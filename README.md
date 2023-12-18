@@ -12,7 +12,10 @@ react-query이용 TodoList
 ### 사용법
 
 1.Node.js설치
+
 2.yarn 패키지 관리자 설치
+
 3.TypeScript 설치
+
 4.json-server --watch db.json --port 4000
 
