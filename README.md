@@ -9,7 +9,7 @@ react-query이용 TodoList
 3. Todo 삭제 : 삭제 시 사용자에게 삭제 확인 요청
 4. Todo 완료 상태 표시 기능 : 사용자가 Todo항목을 완료했음을 표시한다.
 
-### 사용법
+## 사용법
 
 1.Node.js설치
 
